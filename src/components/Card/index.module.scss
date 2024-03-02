@@ -1,0 +1,14 @@
+.card {
+  &__wrapper {
+    @apply h-32 my-mobile:h-36 my-mobile-2:h-24 my-mobile-3:h-28 my-big-screen:h-36 w-auto relative rounded-lg cursor-pointer hover:opacity-80 hover:transition-all hover:duration-500;
+  }
+  &__img {
+    @apply h-32 my-mobile:h-36 my-mobile-2:h-24 my-mobile-3:h-28 my-big-screen:h-36 w-full object-cover object-center rounded-lg border-solid border-2 border-cyan-600;
+  }
+  &__textWrapper {
+    @apply absolute bottom-0 left-1/2 transform -translate-x-1/2;
+  }
+  &__text {
+    @apply text-my-color-geen w-max opacity-90 drop-shadow-[0_1px_2px_rgba(0,0,0,1.1)] text-xl my-mobile-2:text-sm my-big-screen:text-2xl;
+  }
+}

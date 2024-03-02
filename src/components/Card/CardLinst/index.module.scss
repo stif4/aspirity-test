@@ -1,0 +1,3 @@
+.tabelCard {
+  @apply grid grid-cols-1 my-mobile-2:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-4 m-2 p-2 my-mobile-2:p-1;
+}
