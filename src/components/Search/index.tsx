@@ -5,6 +5,7 @@ const SVG_PATH =
 function Search() {
   return (
     <div className={style.search__container}>
+      {/* <div className='bg-black'></div> */}
       <input className={style.search__input} name="search" placeholder="Search" />
       <button type="submit" className={style.search__button}>
         <svg
