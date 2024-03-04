@@ -1,0 +1,26 @@
+.select {
+  &__container {
+    @apply relative flex flex-col items-center justify-center w-full;
+  }
+  &__inputContainer {
+    @apply flex w-full items-center justify-between  p-0 border-2 border-my-color-geen bg-inherit text-my-color-secondary rounded-md overflow-hidden;
+  }
+  &__input {
+    @apply outline-none px-2 p-0.5 bg-inherit text-xs my-mobile:text-xs my-mobile-2:text-xs my-mobile-3:text-xs lg:text-[2vw] my-big-screen:text-[1.5vw] w-full;
+  }
+  &__inputSpan {
+    @apply relative p-2 cursor-pointer;
+  }
+  &__inputSpanRow {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-[6px] border-l-transparent border-r-transparent border-b-0 border-my-color-geen transition-[transform];
+  }
+  &__optionsContainer {
+    @apply absolute top-7 bg-gradient-to-t from-[#000014] to-[#00004d] border-2 border-my-color-geen w-full rounded-md overflow-auto transition-all  text-black  z-50;
+  }
+  &__option {
+    @apply px-3 py-1 cursor-pointer text-[18px] text-my-color-secondary bg-inherit hover:opacity-40;
+  }
+  &__optionNotFound {
+    @apply px-3 py-1 cursor-pointer text-[18px] text-my-color-secondary bg-inherit;
+  }
+}

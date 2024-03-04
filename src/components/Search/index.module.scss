@@ -1,0 +1,14 @@
+.search {
+  &__container {
+    @apply pt-2 relative mx-auto text-gray-600 w-[100%];
+  }
+  &__input {
+    @apply border-2 shadow-[0px_0px_20px_2px_rgba(31,73,125,1)] focus:shadow-[0px_0px_20px_10px_rgba(31,73,125,1)] transition-all border-my-color-geen bg-inherit h-8 px-5 pr-16 rounded-lg text-xs text-my-color-secondary focus:outline-none w-[100%];
+  }
+  &__button {
+    @apply absolute right-0 top-0 mt-4 mr-3;
+  }
+  &__svg {
+    @apply text-my-color-geen h-4 w-4 fill-current;
+  }
+}

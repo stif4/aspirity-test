@@ -1,0 +1,17 @@
+.form {
+  &__container {
+    @apply w-[100%];
+  }
+  &__searchContainer {
+    @apply pb-3;
+  }
+  &__selectGroup {
+    @apply grid grid-cols-1 md:grid-cols-3 md:gap-2 [&>*]:pb-3;
+  }
+  &__selectSingle {
+    @apply flex w-full justify-center pb-3;
+  }
+  &__selectSingleFlex {
+    @apply w-full md:w-1/3;
+  }
+}
