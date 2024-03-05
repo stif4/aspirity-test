@@ -75,7 +75,7 @@ export default function useLazyLoadingEpisodes(skip: boolean) {
         return {
           id: episode.id,
           name: episode.name,
-          img: `../episodes/${episode.id}.webp`,
+          img: `episodes/${episode.id}.webp`,
           type: ETypeForm.episode
         };
       });

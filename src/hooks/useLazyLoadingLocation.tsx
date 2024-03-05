@@ -76,7 +76,7 @@ export default function useLazyLoadingLocations(skip: boolean) {
         return {
           id: location.id,
           name: location.name,
-          img: `../locations/${location.id}.webp`,
+          img: `locations/${location.id}.webp`,
           type: ETypeForm.location
         };
       });
