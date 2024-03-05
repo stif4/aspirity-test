@@ -17,7 +17,9 @@ function Modal({ modalIsOpen, afterOpenModal, closeModal, children }: IModal) {
       onRequestClose={closeModal}
       style={MODAL_STYLES}
       contentLabel="Example Modal">
-      <button onClick={closeModal}>close</button>
+      <button onClick={closeModal} style={{ marginBottom: '16px', color: '#86ff4b' }}>
+        close
+      </button>
       <div>{children}</div>
     </ReactModal>
   );

@@ -16,7 +16,7 @@ export const MODAL_STYLES: Styles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
-    maxWidth: '60%',
+    maxWidth: '80%',
     borderRadius: '0.5rem',
     background: 'linear-gradient(180deg, #000014 0%, #00004d 100%)',
     color: '#68c8ff'
