@@ -6,9 +6,9 @@
     @apply h-32 my-mobile:h-36 my-mobile-2:h-24 my-mobile-3:h-28 my-big-screen:h-36 w-full object-cover object-center rounded-lg border-solid border-2 border-cyan-600;
   }
   &__textWrapper {
-    @apply absolute bottom-0 left-1/2 transform -translate-x-1/2;
+    @apply absolute bottom-0 left-1/2 transform -translate-x-1/2 flex justify-center w-[300px] text-center;
   }
   &__text {
-    @apply text-my-color-geen w-max opacity-90 drop-shadow-[0_1px_2px_rgba(0,0,0,1.1)] text-[8vw] my-mobile-2:text-[5vw] md:text-[3.5vw] lg:text-[2.5vw] my-big-screen:text-[2vw];
+    @apply text-my-color-geen opacity-90 drop-shadow-[0_1px_2px_rgba(0,0,0,1.1)] text-[8vw] my-mobile-2:text-[5vw] md:text-[3.5vw] lg:text-[2.5vw] my-big-screen:text-[2vw];
   }
 }

@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect, InputHTMLAttributes } from 'react';
 import style from './index.module.scss';
+import { transformOptions } from 'src/utils/transformOptions';
 
 interface ISelect extends Omit<InputHTMLAttributes<HTMLInputElement>, 'onChange'> {
   options: string[];
@@ -21,7 +22,7 @@ function Select({ options, id, onChange, ...rest }: ISelect) {
   }, []);
 
   const opt = useMemo(() => {
-    const OPTIONS = options.filter((o) => o.toString().toLowerCase() !== '');
+    const OPTIONS = transformOptions(options);
 
     return OPTIONS.length > 0
       ? OPTIONS.map((o, i) => (
@@ -69,5 +70,4 @@ function Select({ options, id, onChange, ...rest }: ISelect) {
     </div>
   );
 }
-
 export default Select;

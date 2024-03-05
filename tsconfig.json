@@ -19,6 +19,6 @@
     "jsx": "react-jsx",
     "typeRoots": ["./node_modules/@types"]
   },
-  "include": ["./src/**/*.ts", "./src/**/*.tsx", "src/@types/*.d.ts", "src/env.d.ts"],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "src/@types/*.d.ts", "src/env.d.ts", "src/utils/transformOptions.test.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

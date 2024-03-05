@@ -13,7 +13,7 @@ const Banner = () => (
       src={BannerMain}
       alt="Rick and Morty logo"
       width={800}
-      height={251}
+      height={250}
     />
   </picture>
 );
