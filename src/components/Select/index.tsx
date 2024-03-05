@@ -30,7 +30,7 @@ function Select({ options, id, onChange, ...rest }: ISelect) {
             key={i}
             className={style.select__option}
             onClick={() => {
-              onChange(o.toString());
+              onChange(o.toString().toLocaleLowerCase());
               setOpen(false);
             }}>
             {o}

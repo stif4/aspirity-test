@@ -85,7 +85,7 @@ function Form({
             value={querysCharacters.status === null ? '' : querysCharacters.status}
             placeholder="status.."
             onChange={(value) =>
-              handleChangeCharacterFilter('status', value === 'DEFAULT' ? null : value)
+              handleChangeCharacterFilter('status', value === 'default' ? null : value)
             }
             id="1"
           />
@@ -94,7 +94,7 @@ function Form({
             value={querysCharacters.species === null ? '' : querysCharacters.species}
             placeholder="species.."
             onChange={(value) =>
-              handleChangeCharacterFilter('species', value === 'DEFAULT' ? null : value)
+              handleChangeCharacterFilter('species', value === 'default' ? null : value)
             }
             id="2"
           />
@@ -103,7 +103,7 @@ function Form({
             value={querysCharacters.gender === null ? '' : querysCharacters.gender}
             placeholder="gender.."
             onChange={(value) =>
-              handleChangeCharacterFilter('gender', value === 'DEFAULT' ? null : value)
+              handleChangeCharacterFilter('gender', value === 'default' ? null : value)
             }
             id="3"
           />
