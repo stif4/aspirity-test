@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://stif4.github.io/aspirity-test/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,12 +11,15 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "yarn build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
     "@types/jest": "^29.5.12",
     "@types/uuid": "^9.0.8",
+    "gh-pages": "^6.1.1",
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

@@ -5,7 +5,6 @@ import { ETypeForm } from 'src/App';
 import CharacterModal from '../Modal/episodeModal';
 import EpisodeModal from '../Modal/episodeModal';
 import LocationModal from '../Modal/locationModal';
-
 export interface ICard {
   id: number;
   img: string;
